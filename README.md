@@ -27,12 +27,12 @@ source envs/bin/activate
 
 #### 4. Clone git repository
 ```bash
-git clone "https://github.com/Manisha-Bayya/simple-django-project.git"
+git clone "https://github.com/paularinzee/django-automobile.git"
 ```
 
 #### 5. Install requirements
 ```bash
-cd simple-django-project/
+cd django-automobile/
 pip install -r requirements.txt
 ```
 
@@ -42,7 +42,7 @@ pip install -r requirements.txt
 mysql -u <mysql-user> -p
 
 # Give the absolute path of the file
-mysql> source ~/simple-django-project/world.sql
+mysql> source ~/django-automobile/world.sql
 mysql> exit;
 
 ```
